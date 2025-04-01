@@ -88,7 +88,7 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui/backends/imgui_impl_glfw.h \
   /Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui/backends/imgui_impl_vulkan.h \
-  /usr/local/include/vulkan/vulkan.h \
+  /Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.h \
   /usr/local/include/vulkan/vk_platform.h \
   /usr/local/include/vulkan/vulkan_core.h \
   /usr/local/include/vk_video/vulkan_video_codec_h264std.h \
@@ -107,4 +107,9 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_off_t.h \
-  /Users/johnpeterson/Dev/imgui-vulkan/./deps/glfw/include/GLFW/glfw3.h
+  /Users/johnpeterson/Dev/imgui-vulkan/./deps/glfw/include/GLFW/glfw3.h \
+  /usr/local/include/vulkan/vulkan.h \
+  /Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.c \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/dlfcn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h

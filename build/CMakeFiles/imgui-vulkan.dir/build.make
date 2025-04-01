@@ -209,6 +209,7 @@ imgui-vulkan: CMakeFiles/imgui-vulkan.dir/deps/imgui/imgui_widgets.cpp.o
 imgui-vulkan: CMakeFiles/imgui-vulkan.dir/build.make
 imgui-vulkan: binary_dir/src/libglfw3.a
 imgui-vulkan: /usr/local/lib/libvulkan.dylib
+imgui-vulkan: deps/volk/libvolk.a
 imgui-vulkan: CMakeFiles/imgui-vulkan.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable imgui-vulkan"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui-vulkan.dir/link.txt --verbose=$(VERBOSE)

@@ -327,6 +327,22 @@ GLFW_LIBRARY_TYPE:STRING=
 //Value Computed by CMake
 GLFW_SOURCE_DIR:STATIC=/Users/johnpeterson/Dev/imgui-vulkan/deps/glfw
 
+//Add interface library only
+VOLK_HEADERS_ONLY:BOOL=OFF
+
+//Create installation targets
+VOLK_INSTALL:BOOL=OFF
+
+//Vulkan as a transitive dependency
+VOLK_PULL_IN_VULKAN:BOOL=ON
+
+//Additional defines for building the volk static library, e.g.
+// Vulkan platform defines
+VOLK_STATIC_DEFINES:STRING=
+
+//Where to get the Vulkan headers
+VULKAN_HEADERS_INSTALL_DIR:PATH=
+
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=/usr/local/bin/glslangValidator
 
@@ -347,6 +363,15 @@ imgui-vulkan_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 imgui-vulkan_SOURCE_DIR:STATIC=/Users/johnpeterson/Dev/imgui-vulkan
+
+//Value Computed by CMake
+volk_BINARY_DIR:STATIC=/Users/johnpeterson/Dev/imgui-vulkan/build/deps/volk
+
+//Value Computed by CMake
+volk_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+volk_SOURCE_DIR:STATIC=/Users/johnpeterson/Dev/imgui-vulkan/deps/volk
 
 
 ########################
@@ -481,7 +506,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJC_COMPILER
