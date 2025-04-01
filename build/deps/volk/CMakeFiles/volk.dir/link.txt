@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libvolk.a CMakeFiles/volk.dir/volk.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libvolk.a

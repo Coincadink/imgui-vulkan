@@ -87,7 +87,7 @@ CMakeFiles/imgui-vulkan.dir/deps/imgui/backends/imgui_impl_vulkan.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui/backends/imgui_impl_vulkan.h \
-  /Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.h \
+  /usr/local/include/vulkan/vulkan.h \
   /usr/local/include/vulkan/vk_platform.h \
   /usr/local/include/vulkan/vulkan_core.h \
   /usr/local/include/vk_video/vulkan_video_codec_h264std.h \
