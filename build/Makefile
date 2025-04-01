@@ -155,19 +155,6 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f binary_dir/src/CMakeFiles/update_mappings.dir/build.make binary_dir/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-#=============================================================================
-# Target rules for targets named volk
-
-# Build rule for target.
-volk: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 volk
-.PHONY : volk
-
-# fast build rule for target.
-volk/fast:
-	$(MAKE) $(MAKESILENT) -f deps/volk/CMakeFiles/volk.dir/build.make deps/volk/CMakeFiles/volk.dir/build
-.PHONY : volk/fast
-
 deps/imgui/backends/imgui_impl_glfw.o: deps/imgui/backends/imgui_impl_glfw.cpp.o
 .PHONY : deps/imgui/backends/imgui_impl_glfw.o
 
@@ -371,7 +358,6 @@ help:
 	@echo "... update_mappings"
 	@echo "... glfw"
 	@echo "... imgui-vulkan"
-	@echo "... volk"
 	@echo "... deps/imgui/backends/imgui_impl_glfw.o"
 	@echo "... deps/imgui/backends/imgui_impl_glfw.i"
 	@echo "... deps/imgui/backends/imgui_impl_glfw.s"

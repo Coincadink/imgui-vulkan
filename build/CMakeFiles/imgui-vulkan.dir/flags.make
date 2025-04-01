@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/glfw/include -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui/backends -I/Users/johnpeterson/Dev/imgui-vulkan/.. -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/glfw/deps -I/Users/johnpeterson/Dev/imgui-vulkan/deps/glfw/include -I/Users/johnpeterson/Dev/imgui-vulkan/deps/volk -isystem /usr/local/include
+CXX_INCLUDES = -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/glfw/include -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/imgui/backends -I/Users/johnpeterson/Dev/imgui-vulkan/.. -I/Users/johnpeterson/Dev/imgui-vulkan/./deps/glfw/deps -I/Users/johnpeterson/Dev/imgui-vulkan/deps/glfw/include -isystem /usr/local/include
 
 CXX_FLAGS =  -DVK_PROTOTYPES -g -std=gnu++2b -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7
 

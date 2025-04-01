@@ -28,11 +28,8 @@ find_package(Vulkan REQUIRED)
 # use vulkan headers from glfw:
 include_directories(${GLFW_DIR}/deps)
 
-# Volk
-add_subdirectory(./deps/volk)
-
 # Libraries
-set(LIBRARIES "glfw;Vulkan::Vulkan;volk")
+set(LIBRARIES "glfw;Vulkan::Vulkan")
 
 # Create executable
 file(GLOB sources src/*.cpp)

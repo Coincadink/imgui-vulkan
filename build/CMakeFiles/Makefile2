@@ -64,22 +64,19 @@ CMAKE_BINARY_DIR = /Users/johnpeterson/Dev/imgui-vulkan/build
 
 # The main recursive "all" target.
 all: CMakeFiles/imgui-vulkan.dir/all
-all: deps/volk/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/imgui-vulkan.dir/codegen
-codegen: deps/volk/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: deps/volk/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/imgui-vulkan.dir/clean
 clean: binary_dir/clean
-clean: deps/volk/clean
 .PHONY : clean
 
 #=============================================================================
@@ -122,30 +119,10 @@ binary_dir/src/clean: binary_dir/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : binary_dir/src/clean
 
 #=============================================================================
-# Directory level rules for directory deps/volk
-
-# Recursive "all" directory target.
-deps/volk/all: deps/volk/CMakeFiles/volk.dir/all
-.PHONY : deps/volk/all
-
-# Recursive "codegen" directory target.
-deps/volk/codegen: deps/volk/CMakeFiles/volk.dir/codegen
-.PHONY : deps/volk/codegen
-
-# Recursive "preinstall" directory target.
-deps/volk/preinstall:
-.PHONY : deps/volk/preinstall
-
-# Recursive "clean" directory target.
-deps/volk/clean: deps/volk/CMakeFiles/volk.dir/clean
-.PHONY : deps/volk/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/imgui-vulkan.dir
 
 # All Build rule for target.
 CMakeFiles/imgui-vulkan.dir/all: binary_dir/src/CMakeFiles/glfw.dir/all
-CMakeFiles/imgui-vulkan.dir/all: deps/volk/CMakeFiles/volk.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui-vulkan.dir/build.make CMakeFiles/imgui-vulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui-vulkan.dir/build.make CMakeFiles/imgui-vulkan.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31 "Built target imgui-vulkan"
@@ -153,7 +130,7 @@ CMakeFiles/imgui-vulkan.dir/all: deps/volk/CMakeFiles/volk.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imgui-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/imgui-vulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles 0
 .PHONY : CMakeFiles/imgui-vulkan.dir/rule
@@ -233,37 +210,6 @@ binary_dir/src/CMakeFiles/update_mappings.dir/codegen:
 binary_dir/src/CMakeFiles/update_mappings.dir/clean:
 	$(MAKE) $(MAKESILENT) -f binary_dir/src/CMakeFiles/update_mappings.dir/build.make binary_dir/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : binary_dir/src/CMakeFiles/update_mappings.dir/clean
-
-#=============================================================================
-# Target rules for target deps/volk/CMakeFiles/volk.dir
-
-# All Build rule for target.
-deps/volk/CMakeFiles/volk.dir/all:
-	$(MAKE) $(MAKESILENT) -f deps/volk/CMakeFiles/volk.dir/build.make deps/volk/CMakeFiles/volk.dir/depend
-	$(MAKE) $(MAKESILENT) -f deps/volk/CMakeFiles/volk.dir/build.make deps/volk/CMakeFiles/volk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles --progress-num=33,34 "Built target volk"
-.PHONY : deps/volk/CMakeFiles/volk.dir/all
-
-# Build rule for subdir invocation for target.
-deps/volk/CMakeFiles/volk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/volk/CMakeFiles/volk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnpeterson/Dev/imgui-vulkan/build/CMakeFiles 0
-.PHONY : deps/volk/CMakeFiles/volk.dir/rule
-
-# Convenience name for target.
-volk: deps/volk/CMakeFiles/volk.dir/rule
-.PHONY : volk
-
-# codegen rule for target.
-deps/volk/CMakeFiles/volk.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f deps/volk/CMakeFiles/volk.dir/build.make deps/volk/CMakeFiles/volk.dir/codegen
-.PHONY : deps/volk/CMakeFiles/volk.dir/codegen
-
-# clean rule for target.
-deps/volk/CMakeFiles/volk.dir/clean:
-	$(MAKE) $(MAKESILENT) -f deps/volk/CMakeFiles/volk.dir/build.make deps/volk/CMakeFiles/volk.dir/clean
-.PHONY : deps/volk/CMakeFiles/volk.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

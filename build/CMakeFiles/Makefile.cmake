@@ -16,7 +16,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/johnpeterson/Dev/imgui-vulkan/deps/glfw/CMake/glfw3Config.cmake.in"
   "/Users/johnpeterson/Dev/imgui-vulkan/deps/glfw/CMakeLists.txt"
   "/Users/johnpeterson/Dev/imgui-vulkan/deps/glfw/src/CMakeLists.txt"
-  "/Users/johnpeterson/Dev/imgui-vulkan/deps/volk/CMakeLists.txt"
   "/usr/local/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/local/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -84,7 +83,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "binary_dir/CMakeFiles/CMakeDirectoryInformation.cmake"
   "binary_dir/src/glfw3.pc"
   "binary_dir/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "deps/volk/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -92,5 +90,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/imgui-vulkan.dir/DependInfo.cmake"
   "binary_dir/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "binary_dir/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
-  "deps/volk/CMakeFiles/volk.dir/DependInfo.cmake"
   )

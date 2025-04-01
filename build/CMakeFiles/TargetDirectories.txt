@@ -7,6 +7,3 @@
 /Users/johnpeterson/Dev/imgui-vulkan/build/binary_dir/src/CMakeFiles/update_mappings.dir
 /Users/johnpeterson/Dev/imgui-vulkan/build/binary_dir/src/CMakeFiles/edit_cache.dir
 /Users/johnpeterson/Dev/imgui-vulkan/build/binary_dir/src/CMakeFiles/rebuild_cache.dir
-/Users/johnpeterson/Dev/imgui-vulkan/build/deps/volk/CMakeFiles/volk.dir
-/Users/johnpeterson/Dev/imgui-vulkan/build/deps/volk/CMakeFiles/edit_cache.dir
-/Users/johnpeterson/Dev/imgui-vulkan/build/deps/volk/CMakeFiles/rebuild_cache.dir
