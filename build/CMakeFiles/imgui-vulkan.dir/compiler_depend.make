@@ -1755,13 +1755,11 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: /Users/johnpeterson/Dev/imgui-vulkan
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__nullptr \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_mcontext.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_types.h \
@@ -1828,7 +1826,6 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: /Users/johnpeterson/Dev/imgui-vulkan
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
   /Users/johnpeterson/Dev/imgui-vulkan/deps/glfw/include/GLFW/glfw3.h \
@@ -1836,8 +1833,6 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: /Users/johnpeterson/Dev/imgui-vulkan
   /Users/johnpeterson/Dev/imgui-vulkan/deps/imgui/backends/imgui_impl_vulkan.h \
   /Users/johnpeterson/Dev/imgui-vulkan/deps/imgui/imconfig.h \
   /Users/johnpeterson/Dev/imgui-vulkan/deps/imgui/imgui.h \
-  /Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.c \
-  /Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.h \
   /usr/local/include/vk_video/vulkan_video_codec_av1std.h \
   /usr/local/include/vk_video/vulkan_video_codec_av1std_decode.h \
   /usr/local/include/vk_video/vulkan_video_codec_h264std.h \
@@ -1849,10 +1844,11 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: /Users/johnpeterson/Dev/imgui-vulkan
   /usr/local/include/vk_video/vulkan_video_codecs_common.h \
   /usr/local/include/vulkan/vk_platform.h \
   /usr/local/include/vulkan/vulkan.h \
+  /usr/local/include/vulkan/vulkan_beta.h \
   /usr/local/include/vulkan/vulkan_core.h
 
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/dlfcn.h:
+/usr/local/include/vulkan/vulkan_beta.h:
 
 /Users/johnpeterson/Dev/imgui-vulkan/deps/imgui/imstb_truetype.h:
 
@@ -2511,8 +2507,6 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: /Users/johnpeterson/Dev/imgui-vulkan
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/acl.h:
-
-/Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.c:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDirectDisplay.h:
 
@@ -3245,8 +3239,6 @@ CMakeFiles/imgui-vulkan.dir/src/main.cpp.o: /Users/johnpeterson/Dev/imgui-vulkan
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/MacLocales.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/ImageIO.framework/Headers/CGImageMetadata.h:
-
-/Users/johnpeterson/Dev/imgui-vulkan/deps/volk/volk.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h:
 

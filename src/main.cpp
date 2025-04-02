@@ -11,8 +11,13 @@
 #include "imgui_impl_vulkan.h"
 #include <stdio.h> // printf, fprintf
 #include <stdlib.h> // abort
+
 #define GLFW_INCLUDE_NONE
-#define GLFW_INCLUDE_VULKAN
+#ifdef __APPLE__
+    #include <vulkan/vulkan_beta.h>
+#else
+    #define GLFW_INCLUDE_VULKAN
+#endif
 #include <GLFW/glfw3.h>
 
 // [Win32] Our example includes a copy of glfw3.lib pre-compiled with VS2010 to maximize ease of testing and compatibility with old VS compilers.
@@ -23,9 +28,11 @@
 #endif
 
 //#define APP_USE_UNLIMITED_FRAME_RATE
-#ifdef _DEBUG
+// #ifdef _DEBUG
 #define APP_USE_VULKAN_DEBUG_REPORT
-#endif
+// #endif
+
+// #define VK_KHR_PORTABILITY_SUBSET_EXTENSION_NAME = VK_KHR_portability_subset
 
 // Data
 static VkAllocationCallbacks*   g_Allocator = nullptr;
@@ -75,9 +82,6 @@ static bool IsExtensionAvailable(const ImVector<VkExtensionProperties>& properti
 static void SetupVulkan(ImVector<const char*> instance_extensions)
 {
     VkResult err;
-#ifdef IMGUI_IMPL_VULKAN_USE_VOLK
-    volkInitialize();
-#endif
 
     // Create Vulkan Instance
     {
@@ -116,9 +120,6 @@ static void SetupVulkan(ImVector<const char*> instance_extensions)
         create_info.ppEnabledExtensionNames = instance_extensions.Data;
         err = vkCreateInstance(&create_info, g_Allocator, &g_Instance);
         check_vk_result(err);
-#ifdef IMGUI_IMPL_VULKAN_USE_VOLK
-        volkLoadInstance(g_Instance);
-#endif
 
         // Setup the debug report callback
 #ifdef APP_USE_VULKAN_DEBUG_REPORT
