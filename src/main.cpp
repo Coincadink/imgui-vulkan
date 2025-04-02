@@ -747,7 +747,7 @@ int main(int, char**)
             FPSOverlay(&show_overlay);
 
         {
-            ImGui::Begin("Chip View");
+            ImGui::Begin("Chip View", nullptr, ImGuiWindowFlags_HorizontalScrollbar);
             ImGui::Image((ImTextureID)my_texture.DS, ImVec2(my_texture.Width, my_texture.Height));
             ImGui::End();
         }
